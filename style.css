@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: android;
+    background-color: rgb(231, 231, 179);
+    max-width:1000px;
+    min-width: 320px;
+    margin: auto;
+}
+
+a.externo::after{
+    content: '\1F517';
+}
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(48, 194, 48), rgb(12, 76, 12));
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+header p {
+    font-weight: normal; 
+    margin-bottom: 20px;
+}
+nav {
+    text-align: center;
+    font-family: 'alegreya sans', 'sans-serif';
+    padding: 10px;
+    
+}
+
+nav a {
+    text-decoration: none;   
+    color: #fff;
+    padding: 20px;
+    font-weight: bold;
+    transition-duration: .8s;
+}
+
+a:hover{
+    background-color:#72ff52;
+}
+
+h2 {
+    color: rgb(7, 67, 7);
+    text-indent: 15px;
+    background-image: linear-gradient(to right,#a6f096, transparent );
+    font-size: 1.3em;
+    
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom:20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+main p {
+    text-indent: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    
+}
+
+main img {
+    width: 100%;
+}
+
+main strong {
+    color: rgb(16, 190, 60);
+}
+
+main a{
+    text-decoration: none;
+    color:rgb(53, 165, 53);
+}
+
+main h1 {
+    color: rgb(1, 58, 1);
+}
+
+footer {
+    background-color: darkgreen;
+    color: #fff;
+    text-align: center;
+    font-family: 'Alegreya Sans', 'sans-serif';
+    font-weight: 400;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+img.novo{
+    width: 50%;
+    display:block;
+    margin: auto;
+}
+aside {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(109, 75%, 76%);
+    border-radius: 10px; 
+    padding: 10px;
+}
+aside strong{
+    color:black
+}
+
+aside ul{
+    list-style-position: inside;
+    columns: 2;
+}
+
+aside h3{
+    color: white;
+    background-color: forestgreen;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+}
+
+div.video{
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+div.video iframe{
+    position: absolute;
+    top:5% ;
+    left:5% ;
+    width: 90%;
+    height: 90%;
+}
